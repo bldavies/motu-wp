@@ -1,0 +1,8 @@
+# files
+.dropbox
+.Rhistory
+
+# folders
+_archive
+_references
+.Rproj.user
