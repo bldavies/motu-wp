@@ -1,6 +1,6 @@
 # Coauthorship Networks at Motu
 
-This repository contains the code, data and figures for my blog post about the coauthorship networks among Motu researchers.
+This repository contains the code, data and figures for [my blog post about the coauthorship networks among Motu researchers](https://bldavies.github.io/2018/06/21/motu-wp.html).
 
 ## Data
 
