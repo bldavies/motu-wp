@@ -1,6 +1,6 @@
 # Coauthorship Networks at Motu
 
-This repository contains the code, data and figures for [my blog post about the coauthorship networks among Motu researchers](https://bldavies.github.io/2018/06/21/motu-wp.html).
+This repository contains the code, data and figures for [my blog post about the coauthorship networks among Motu researchers][post-url].
 
 ## Data
 
@@ -11,3 +11,5 @@ I only include authors with outgoing hyperlinks from each paper's landing page i
 ## License
 
 All repository content is licensed under the [MIT license](https://github.com/bldavies/motu-wp/blob/master/LICENSE).
+
+[post-url]: https://bldavies.github.io/motu-wp
