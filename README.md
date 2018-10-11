@@ -12,4 +12,4 @@ I only include authors with outgoing hyperlinks from each paper's landing page i
 
 All repository content is licensed under the [MIT license](https://github.com/bldavies/motu-wp/blob/master/LICENSE).
 
-[post-url]: https://bldavies.github.io/motu-wp
+[post-url]: https://bldavies.com/blog/motu-wp/
