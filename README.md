@@ -1,15 +1,7 @@
-# Coauthorship Networks at Motu
+# Motu working papers
 
-This repository contains the code, data and figures for [my blog post about the coauthorship networks among Motu researchers][post-url].
-
-## Data
-
-I scraped [Motu's working paper directory](https://motu.nz/resources/working-papers/) for a list of paper URLs and authors using the Python scripts in `code`.
-The scripts' output are stored in `data`, along with metadata on Motu's six primary research fields.
-I only include authors with outgoing hyperlinks from each paper's landing page in order to overcome identification and HTML parsing issues.
-
-## License
+This repository contains data on Motu working papers and their authors.
+I scrape these data from [Motu's working paper directory](https://motu.nz/resources/working-papers/) using `code/data.R`, which outputs `data/papers.csv` and `data/authors.csv`.
+`data/areas.csv` lists Motu's six primary research areas and is created manually.
 
 All repository content is licensed under the [MIT license](https://github.com/bldavies/motu-wp/blob/master/LICENSE).
-
-[post-url]: https://bldavies.com/blog/motu-wp/

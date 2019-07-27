@@ -3,6 +3,5 @@
 .Rhistory
 
 # folders
-_archive
-_references
+_*
 .Rproj.user
