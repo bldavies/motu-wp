@@ -59,7 +59,8 @@ if (length(titles_list) * length(authors_list) > 0) {
 authors <- cache %>%
   mutate(author = gsub('/about-us/people/(.*)/', '\\1', uri)) %>%
   select(paper, author) %>%
-  arrange(paper, author)
+  arrange(paper, author) %>%
+  filter(!is.na(author))
 papers <- cache %>%
   distinct(paper, title) %>%
   full_join(papers) %>%
