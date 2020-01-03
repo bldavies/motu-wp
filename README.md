@@ -1,7 +1,21 @@
-# Motu working papers
+# motuwp
 
-This repository contains data on Motu working papers and their authors.
-I scrape these data from [Motu's working paper directory](https://motu.nz/resources/working-papers/) using `code/data.R`, which outputs `data/papers.csv` and `data/authors.csv`.
-`data/areas.csv` lists Motu's six primary research areas and is created manually.
+This package contains information about [Motu working papers](https://motu.nz/resources/working-papers/) published between 2003 and 2019.
+The package provides the following three data frames.
 
-All repository content is licensed under the [MIT license](https://github.com/bldavies/motu-wp/blob/master/LICENSE).
+* `papers`: working paper numbers, titles, and research areas.
+* `areas`: research area names and colours.
+* `authors`: paper-author correspondences.
+
+## Installation
+
+motuwp can be installed via [remotes](https://github.com/r-lib/remotes):
+
+```r
+library(remotes)
+install_github('bldavies/motuwp')
+```
+
+## License
+
+CC0
