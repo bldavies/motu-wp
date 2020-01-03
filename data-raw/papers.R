@@ -27,11 +27,23 @@ areas <- tribble(
   'wellbeing-and-macroeconomics', 'Wellbeing and Macroeconomics', '#A56BCB'
 )
 
+# Define function for replacing non-ASCII characters with ASCII equivalents
+replace_non_ascii <- function(x) {
+  subfun <- function(x, pattern, y) gsub(pattern, y, x, perl = T)
+  x %>%
+    iconv('', 'ASCII', sub = 'byte') %>%
+    subfun('<c4><81>', 'a') %>%
+    subfun('<e2><80><93>', '--') %>%
+    subfun('<e2><80><98>|<e2><80><99>', '\'') %>%
+    subfun('<e2><80><9c>|<e2><80><9d>', '\"')
+}
+
 # Combine data
 papers <- tibble(
   number = gsub('^data-raw/pages/(.*)[.]html$', '\\1', html_files),
   title = sapply(html_data, function(x) html_text(html_node(x, 'h1')))
 ) %>%
+  mutate(title = replace_non_ascii(title)) %>%
   left_join(index) %>%
   mutate(area = gsub('^/our-work/(.*?)/(.*)$', '\\1', uri)) %>%
   left_join(areas) %>%
