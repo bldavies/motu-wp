@@ -18,15 +18,15 @@ html_data <- lapply(html_files, read_html)
 authors_list <- vector('list', length(html_files))
 for (i in seq_along(html_files)) {
   authors_list[[i]] <- tibble(
-    paper = gsub('^data-raw/pages/(.*)[.]html$', '\\1', html_files[i]),
+    number = gsub('^data-raw/pages/(.*)[.]html$', '\\1', html_files[i]),
     uri = html_attr(html_nodes(html_data[[i]], '.h-right p a'), 'href')
   )
 }
 authors <- authors_list %>%
   bind_rows() %>%
   mutate(author = gsub('/about-us/people/(.*)/', '\\1', uri)) %>%
-  select(paper, author) %>%
-  arrange(paper, author) %>%
+  select(number, author) %>%
+  arrange(number, author) %>%
   filter(!is.na(author))
 
 # Export data

@@ -6,7 +6,7 @@
 \title{Motu working paper authors}
 \format{Data frame with columns
 \describe{
-\item{paper}{Working paper number}
+\item{number}{Working paper number}
 \item{author}{Author ID}
 }}
 \source{

@@ -10,7 +10,7 @@
 #' 
 #' @format Data frame with columns
 #' \describe{
-#' \item{paper}{Working paper number}
+#' \item{number}{Working paper number}
 #' \item{title}{Working paper title}
 #' \item{area}{Research area ID}
 #' }

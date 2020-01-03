@@ -18,12 +18,12 @@ html_data <- lapply(html_files, read_html, encoding = 'UTF-8')
 
 # Combine data
 papers <- tibble(
-  paper = gsub('^data-raw/pages/(.*)[.]html$', '\\1', html_files),
+  number = gsub('^data-raw/pages/(.*)[.]html$', '\\1', html_files),
   title = sapply(html_data, function(x) html_text(html_node(x, 'h1')))
 ) %>%
   left_join(index) %>%
   mutate(area = gsub('^/our-work/(.*?)/(.*)$', '\\1', uri)) %>%
-  select(paper, title, area)
+  select(number, title, area)
 
 # Export data
 write_csv(papers, 'data-raw/papers.csv')

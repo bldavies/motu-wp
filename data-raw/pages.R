@@ -21,20 +21,20 @@ list_html <- read_html(list_url)
 # Create index of working paper numbers and page URIs
 index <- tibble(node = html_nodes(list_html, '.content__abstract-content p')) %>%
   mutate(uri = html_attr(html_node(node, 'a'), 'href'),
-         paper = gsub('^([0-9]+).?([0-9]+).*?$', '\\1-\\2', html_text(node)),
+         number = gsub('^([0-9]+).?([0-9]+).*?$', '\\1-\\2', html_text(node)),
          uri = html_attr(html_node(node, 'a'), 'href'),
-         paper = case_when(grepl('relatedness-complexity', uri) ~ '19-01',
+         number = case_when(grepl('relatedness-complexity', uri) ~ '19-01',
                            grepl('pacific-migrants', uri) ~ '19-02',
-                           TRUE ~ paper)) %>%
+                           TRUE ~ number)) %>%
   filter(grepl('our-work', uri)) %>%
-  arrange(paper) %>%
-  select(paper, uri)
+  arrange(number) %>%
+  select(number, uri)
 
 # Save index
 write_csv(index, paste0(outdir, 'index.csv'))
 
 # Download HTML for uncached pages
-needed <- filter(index, !paste0(paper, '.html') %in% dir(outdir))
+needed <- filter(index, !paste0(number, '.html') %in% dir(outdir))
 for (i in seq_len(nrow(needed))) {
   
   # Extract HTML nodes of interest
@@ -46,7 +46,7 @@ for (i in seq_len(nrow(needed))) {
   out <- paste(as.character(title_html), as.character(info_html), sep = '\n')
   out <- gsub('\\\t', '', out)
   out <- gsub('(\\\n)+', '\n', out)
-  write_lines(out, paste0(outdir, needed$paper[i], '.html'))
+  write_lines(out, paste0(outdir, needed$number[i], '.html'))
   
   # Pause
   Sys.sleep(5)
