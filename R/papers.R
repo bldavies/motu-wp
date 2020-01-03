@@ -1,6 +1,7 @@
 #' Motu working papers
 #' 
-#' Data frame containing working paper numbers, titles, and research areas.
+#' Data frame containing working paper numbers and titles, and research area
+#' names and colours.
 #' 
 #' @docType data
 #' 
@@ -12,7 +13,8 @@
 #' \describe{
 #' \item{number}{Working paper number}
 #' \item{title}{Working paper title}
-#' \item{area}{Research area ID}
+#' \item{area}{Research area name}
+#' \item{colour}{Research area colour hex code}
 #' }
 #' 
 #' @source \href{https://motu.nz/resources/working-papers/}{Motu Economic and Public Policy Research}
