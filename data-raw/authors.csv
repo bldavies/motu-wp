@@ -1,548 +1,663 @@
 number,author
-03-02,james-sanchirico
-03-02,richard-newell
-03-02,suzi-kerr
-03-03,john-gibson
-03-04,catherine-leining
-03-04,suzi-kerr
-03-05,suzi-kerr
-03-06,suzi-kerr
-03-07,dave-mare
-03-07,jason-timmins
-03-09,andrew-aitken
-03-09,arthur-grimes
-03-09,suzi-kerr
-03-10,arthur-grimes
-03-12,suzi-kerr
-03-13,dave-mare
-03-13,jason-timmins
-03-14,viv-hall
-03-15,suzi-kerr
-03-16,dave-mare
-03-16,dean-hyslop
-03-17,joanna-hendy
-03-17,suzi-kerr
-03-18,arthur-grimes
-03-18,richard-fabling
-03-19,dave-mare
-04-01,andrew-aitken
-04-01,arthur-grimes
-04-01,suzi-kerr
-04-02,andrew-aitken
-04-02,arthur-grimes
-04-02,suzi-kerr
-04-03,joanna-hendy
-04-03,suzi-kerr
-04-04,dave-mare
-04-05,emma-brunton
-04-05,suzi-kerr
-04-06,dave-mare
-04-06,isabelle-sin
-04-08,andrew-aitken
-04-08,arthur-grimes
-04-09,andrew-aitken
-04-09,arthur-grimes
-04-09,suzi-kerr
-04-10,john-mcdermott
-04-10,viv-hall
-04-11,arthur-grimes
-04-12,dave-mare
-04-12,sylvia-dixon
-05-01,dave-mare
-05-02,andrew-aitken
-05-02,arthur-grimes
-05-02,robert-sourell
-05-03,arthur-grimes
-05-04,arthur-grimes
-05-05,isabelle-sin
-05-05,steven-stillman
-05-06,dave-mare
-05-06,sylvia-dixon
-05-07,steven-stillman
-05-08,emma-brunton
-05-08,isabelle-sin
-05-08,joanna-hendy
-05-08,suzi-kerr
-05-09,dave-mare
-05-09,michelle-poland
-05-10,joanna-hendy
-05-10,suzi-kerr
-05-11,arthur-grimes
-05-12,dave-mare
-05-13,andrew-coleman
-05-13,dave-mare
-05-13,sylvia-dixon
-05-14,jason-timmins
-06-01,andrew-aitken
-06-01,arthur-grimes
-06-02,john-gibson
-06-02,steven-stillman
-06-03,john-mcdermott
-06-03,viv-hall
-06-04,joanna-hendy
-06-04,suzi-kerr
-06-05,joanna-hendy
-06-05,suzi-kerr
-06-06,dave-mare
-06-06,yun-liang
-06-07,arthur-grimes
-06-07,dave-mare
-06-07,melanie-morten
-06-08,dave-mare
-06-08,jason-timmins
-06-09,sholeh-maani
-07-01,andrew-aitken
-07-01,arthur-grimes
-07-02,kelly-lock
-07-03,suzi-kerr
-07-04,arthur-grimes
-07-04,yun-liang
-07-05,dave-mare
-07-05,steven-stillman
-07-06,kelly-lock
-07-06,suzi-kerr
-07-07,joanna-hendy
-07-07,suzi-kerr
-07-08,kelly-lock
-07-08,suzi-kerr
-07-09,arthur-grimes
-07-09,yun-liang
-07-10,arthur-grimes
-07-10,dave-mare
-07-10,melanie-morten
-07-11,dave-mare
-07-11,melanie-morten
-07-11,steven-stillman
-07-12,john-gibson
-07-12,steven-stillman
-07-12,trinh-le
-07-13,john-mcdermott
-07-13,viv-hall
-08-01,adolf-stroombergen
-08-02,kelly-lock
-08-02,suzi-kerr
-08-03,suzi-kerr
-08-04,suzi-kerr
-08-05,kelly-lock
-08-05,suzi-kerr
-08-06,dave-mare
-08-06,steven-stillman
-08-07,arthur-grimes
-08-07,yun-liang
-08-08,andrew-coleman
-08-09,andrew-coleman
-08-10,andrew-aitken
-08-10,arthur-grimes
-08-11,andrew-aitken
-08-11,malathi-velamuri
-08-11,steven-stillman
-08-12,dave-mare
-08-13,andrew-coleman
-08-14,andrew-coleman
-09-01,michelle-poland
-09-01,steven-stillman
-09-02,john-gibson
-09-02,les-oxley
-09-03,john-gibson
-09-03,les-oxley
-09-04,john-gibson
-09-04,les-oxley
-09-05,jacques-poot
-09-06,dave-mare
-09-08,andrew-coleman
-09-08,grant-scobie
-09-09,kelly-lock
-09-09,suzi-kerr
-09-10,dave-mare
-09-10,steven-stillman
-09-11,dave-mare
-09-11,steven-stillman
-09-12,arthur-grimes
-09-12,chris-young
-09-13,andrew-coleman
-09-14,andrew-coleman
-09-14,arthur-grimes
-09-15,arthur-grimes
-09-15,cleo-ren
-09-16,suzi-kerr
-09-16,wei-zhang
-09-17,maribeth-todd
-09-17,suzi-kerr
-10-01,andrew-coleman
-10-02,andrew-coleman
-10-03,arthur-grimes
-10-03,jacques-poot
-10-03,philip-mccann
-10-04,suzi-kerr
-10-05,arthur-grimes
-10-06,john-gibson
-10-06,steven-stillman
-10-06,trinh-le
-10-07,arthur-grimes
-10-07,nicholas-tarrant
-10-08,andrew-coleman
-10-08,hugh-mcdonald
-10-09,lew-evans
-10-10,arthur-grimes
-10-10,chris-young
-10-11,arthur-grimes
-10-11,chris-young
-10-12,arthur-grimes
-10-12,jacques-poot
-10-12,philip-mccann
-10-13,alex-olssen
-10-13,arthur-grimes
-10-13,hugh-mcdonald
-10-13,steven-stillman
-10-14,adolf-stroombergen
-11-01,richard-fabling
-11-02,arthur-grimes
-11-02,jacques-poot
-11-02,philip-mccann
-11-03,arthur-grimes
-11-03,katy-bergstrom
-11-03,steven-stillman
-11-04,andrew-coleman
-11-05,dave-mare
-11-05,richard-fabling
-11-05,steven-stillman
-11-06,andrew-coleman
-11-06,dave-mare
-11-06,ruth-pinkerton
-11-07,andrew-coleman
-11-07,dave-mare
-11-08,andrew-coleman
-11-08,dave-mare
-11-09,eric-karpas
-11-09,suzi-kerr
-11-10,dave-mare
-11-10,richard-fabling
-11-11,arthur-grimes
-11-11,chris-young
-11-11,steven-stillman
-11-12,arthur-grimes
-11-13,levente-timar
-11-14,marie-laure-nauleau
-11-14,simon-anastasiadis
-11-14,suzi-kerr
-11-15,hugh-mcdonald
-11-15,suzi-kerr
-12-01,andrew-coleman
-12-02,dave-mare
-12-02,dean-hyslop
-12-02,john-gibson
-12-02,steven-stillman
-12-02,trinh-le
-12-03,suzi-kerr
-12-04,dave-mare
-12-04,richard-fabling
-12-05,isabelle-sin
-12-06,alex-olssen
-12-06,suzi-kerr
-12-07,alex-olssen
-12-07,suzi-kerr
-12-07,wei-zhang
-12-08,andrew-coleman
-12-08,darian-woods
-12-09,arthur-grimes
-12-09,les-oxley
-12-09,nicholas-tarrant
-12-10,alex-olssen
-12-10,levente-timar
-12-10,simon-anastasiadis
-12-10,suzi-kerr
-12-10,wei-zhang
-12-10,william-power
-12-11,andrew-coleman
-12-12,suzi-kerr
-12-13,arthur-grimes
-12-13,dave-mare
-12-13,richard-fabling
-12-14,catherine-leining
-12-14,suzi-kerr
-13-01,lynda-sanderson
-13-01,richard-fabling
-13-02,andrew-coleman
-13-02,arthur-grimes
-13-02,sean-hyland
-13-03,dave-mare
-13-03,sylvia-dixon
-13-04,dave-mare
-13-05,dave-mare
-13-06,dave-mare
-13-06,richard-fabling
-13-07,arthur-grimes
-13-07,nicholas-tarrant
-13-08,dave-mare
-13-08,richard-fabling
-13-09,arthur-grimes
-13-09,corey-allan
-13-09,suzi-kerr
-13-10,arthur-grimes
-13-10,sean-hyland
-13-11,simon-anastasiadis
-13-11,suzi-kerr
-13-12,arthur-grimes
-13-12,sean-hyland
-13-13,suzi-kerr
-13-14,lynda-sanderson
-13-14,richard-fabling
-14-01,arthur-grimes
-14-01,richard-fabling
-14-02,arthur-grimes
-14-03,levente-timar
-14-03,suzi-kerr
-14-04,adam-jaffe
-14-04,corey-allan
-14-04,isabelle-sin
-14-05,campbell-will
-14-05,carl-romanos
-14-05,suzi-kerr
-14-06,robert-macculloch
-14-07,corey-allan
-14-07,simon-anastasiadis
-14-07,suzi-kerr
-14-07,wei-zhang
-14-07,william-power
-14-08,arthur-grimes
-14-08,levente-timar
-14-08,richard-fabling
-14-09,suzi-kerr
-14-10,dave-mare
-14-10,lynda-sanderson
-14-10,richard-fabling
-14-11,anna-robinson
-14-11,arthur-grimes
-14-11,eyal-apatov
-14-12,dean-hyslop
-14-12,zack-dorner
-14-13,arthur-grimes
-14-13,levente-timar
-14-13,richard-fabling
-14-14,dave-mare
-14-14,richard-fabling
-14-15,adam-jaffe
-14-15,dave-mare
-14-15,isabelle-sin
-14-15,lynda-sanderson
-14-15,richard-fabling
-15-01,adam-jaffe
-15-02,arthur-grimes
-15-03,isabelle-sin
-15-03,steven-stillman
-15-04,lynda-sanderson
-15-04,richard-fabling
-15-05,lynda-sanderson
-15-05,richard-fabling
-15-06,campbell-will
-15-06,corey-allan
-15-06,suzi-kerr
-15-07,hugh-mcdonald
-15-07,madeline-duhon
-15-07,suzi-kerr
-15-08,adam-jaffe
-15-08,trinh-le
-15-09,arthur-grimes
-15-09,sean-hyland
-15-10,arthur-grimes
-15-11,suzi-kerr
-15-11,zack-dorner
-15-12,adam-jaffe
-15-12,athene-laws
-15-12,victoria-larsen
-15-13,adam-jaffe
-15-13,eyal-apatov
-15-13,matt-thirkettle
-15-13,richard-fabling
-15-14,arthur-grimes
-15-14,fraser-mckay
-15-14,robert-macculloch
-15-15,dave-mare
-15-15,richard-fabling
-15-16,matt-thirkettle
-15-16,suzi-kerr
-15-17,dave-mare
-15-17,richard-fabling
-15-18,dave-mare
-15-18,dean-hyslop
-15-18,richard-fabling
-15-19,arthur-grimes
-15-19,levente-timar
-15-19,richard-fabling
-15-20,dave-mare
-15-20,jacques-poot
-15-20,ruth-pinkerton
-16-01,dean-hyslop
-16-02,robert-macculloch
-16-03,lynda-sanderson
-16-03,richard-fabling
-16-04,arthur-grimes
-16-05,anna-robinson
-16-05,arthur-grimes
-16-05,judd-ormsby
-16-06,catherine-leining
-16-06,suzi-kerr
-16-07,arthur-grimes
-16-07,levente-timar
-16-07,richard-fabling
-16-08,adam-jaffe
-16-08,nathan-chappell
-16-08,trinh-le
-16-09,levente-timar
-16-10,isabelle-sin
-16-10,nathan-chappell
-16-11,arthur-grimes
-16-11,eyal-apatov
-16-12,arthur-grimes
-16-12,tom-carver
-16-13,judd-ormsby
-16-13,suzi-kerr
-16-14,adam-jaffe
-16-14,nathan-chappell
-16-15,levente-timar
-16-16,suzi-kerr
-16-17,anna-robinson
-16-17,suzi-kerr
-16-18,dean-hyslop
-16-18,wilbur-townsend
-16-19,dean-hyslop
-16-19,wilbur-townsend
-16-20,corey-allan
-16-20,suzi-kerr
-16-21,dave-mare
-16-22,arthur-grimes
-16-22,richard-fabling
-17-01,suzi-kerr
-17-01,tom-carver
-17-02,dave-mare
-17-02,jacques-poot
-17-02,omoniyi-alimi
-17-03,arthur-grimes
-17-03,wilbur-townsend
-17-04,dave-mare
-17-04,nathan-chappell
-17-04,richard-fabling
-17-04,trinh-le
-17-05,catherine-leining
-17-05,corey-allan
-17-05,suzi-kerr
-17-06,catherine-leining
-17-06,judd-ormsby
-17-06,suzi-kerr
-17-07,arthur-grimes
-17-07,judd-ormsby
-17-07,kate-preston
-17-08,arthur-grimes
-17-08,kate-preston
-17-09,andrew-coleman
-17-10,edmund-lou
-17-10,levente-timar
-17-10,suzi-kerr
-17-11,patrick-dawson
-17-11,suzi-kerr
-17-11,tom-carver
-17-12,dean-hyslop
-17-12,wilbur-townsend
-17-13,arthur-grimes
-17-13,dave-mare
-17-13,david-fleming
-17-14,robert-macculloch
-17-15,isabelle-sin
-17-15,richard-fabling
-17-15,steven-stillman
-18-01,richard-harris
-18-01,trinh-le
-18-02,adam-jaffe
-18-02,nathan-chappell
-18-03,dave-mare
-18-03,eyal-apatov
-18-03,isabelle-sin
-18-04,arthur-grimes
-18-04,eyal-apatov
-18-04,nathan-chappell
-18-05,anne-marie-brook
-18-06,arthur-grimes
-18-07,arthur-grimes
-18-08,isabelle-sin
-18-09,david-fleming
-18-09,jacob-pastor-paz
-18-09,sally-owen
-18-10,dean-hyslop
-18-11,david-fleming
-18-11,kate-preston
-18-12,richard-fabling
-18-13,dave-mare
-18-13,jacques-poot
-18-13,omoniyi-alimi
-18-14,arthur-grimes
-18-14,dave-mare
-18-14,kate-preston
-18-15,adolf-stroombergen
-18-15,catherine-leining
-18-15,dom-white
-18-15,niven-winchester
-18-15,suzi-kerr
-18-16,adolf-stroombergen
-18-16,catherine-leining
-18-16,david-fleming
-18-16,dom-white
-18-16,edmund-lou
-18-16,elodie-blanc
-18-16,joanna-hendy
-18-16,levente-timar
-18-16,suzi-kerr
-19-01,ben-davies
-19-01,dave-mare
-19-02,isabelle-sin
-19-02,judd-ormsby
-19-03,dave-mare
-19-03,richard-fabling
-19-04,edmund-lou
-19-04,suzi-kerr
-19-05,dave-mare
-19-05,jacques-poot
-19-06,arthur-grimes
-19-06,dave-mare
-19-06,kate-preston
-19-06,shaan-badenhorst
-19-07,catherine-leining
-19-07,suzi-kerr
-19-08,catherine-leining
-19-08,suzi-kerr
-19-09,catherine-leining
-19-09,suzi-kerr
-19-10,david-fleming
-19-10,edmund-lou
-19-10,loic-henry
-19-10,sally-owen
-19-10,sandra-cortes-acosta
-19-11,david-fleming
-19-11,edmund-lou
-19-11,suzi-kerr
-19-12,catherine-leining
-19-12,dom-white
-19-12,niven-winchester
-19-13,andrew-coleman
-19-14,dave-mare
-19-14,dean-hyslop
-19-14,steven-stillman
-19-14,trinh-le
-19-15,john-mcdermott
-19-15,viv-hall
-19-16,dave-mare
-19-16,richard-fabling
-19-17,arthur-grimes
-19-17,dom-white
-19-18,dean-hyslop
-19-18,isabelle-sin
-19-18,lynn-riggs
-19-19,david-fleming
-19-19,jacob-pastor-paz
-19-19,sally-owen
-19-20,dave-mare
-19-20,jacques-poot
-19-21,bronwyn-bruce-brand
-19-21,isabelle-sin
-19-22,dave-mare
-19-23,arthur-grimes
-19-23,richard-fabling
+03-02,James Sanchirico
+03-02,Richard Newell
+03-02,Suzi Kerr
+03-03,John Gibson
+03-04,Catherine Leining
+03-04,Suzi Kerr
+03-05,Suzi Kerr
+03-06,Alexander Pfaff
+03-06,Flint Hughes
+03-06,Liu Shuguang
+03-06,Suzi Kerr
+03-07,Dave Mare
+03-07,Jason Timmins
+03-09,Andrew Aitken
+03-09,Arthur Grimes
+03-09,Suzi Kerr
+03-10,Arthur Grimes
+03-12,Suzi Kerr
+03-13,Dave Mare
+03-13,Jason Timmins
+03-13,Simon Chapple
+03-13,Suzie Ballantyne
+03-14,Angela Huang
+03-14,Viv Hall
+03-15,Suzi Kerr
+03-16,Dave Mare
+03-16,Dean Hyslop
+03-17,Jo Hendy
+03-17,Suzi Kerr
+03-18,Arthur Grimes
+03-18,Richard Fabling
+03-19,Dave Mare
+04-01,Andrew Aitken
+04-01,Arthur Grimes
+04-01,Suzi Kerr
+04-02,Andrew Aitken
+04-02,Arthur Grimes
+04-02,Suzi Kerr
+04-03,Alexander Pfaff
+04-03,Jo Hendy
+04-03,Liu Shuguang
+04-03,Suzi Kerr
+04-04,Dave Mare
+04-05,Emma Brunton
+04-05,Ralph Chapman
+04-05,Suzi Kerr
+04-06,Dave Mare
+04-06,Isabelle Sin
+04-07,John McMillan
+04-08,Andrew Aitken
+04-08,Arthur Grimes
+04-09,Andrew Aitken
+04-09,Arthur Grimes
+04-09,Suzi Kerr
+04-10,John McDermott
+04-10,Viv Hall
+04-11,Arthur Grimes
+04-12,Dave Mare
+04-12,Sylvia Dixon
+05-01,Dave Mare
+05-02,Andrew Aitken
+05-02,Arthur Grimes
+05-02,Robert Sourell
+05-03,Arthur Grimes
+05-04,Arthur Grimes
+05-05,Isabelle Sin
+05-05,Steven Stillman
+05-06,Dave Mare
+05-06,Sylvia Dixon
+05-07,Steven Stillman
+05-08,Emma Brunton
+05-08,Isabelle Sin
+05-08,Jo Hendy
+05-08,Suzi Kerr
+05-09,Dave Mare
+05-09,Michelle Poland
+05-10,Jo Hendy
+05-10,Suzi Kerr
+05-11,Arthur Grimes
+05-11,Mark J Holmes
+05-12,Dave Mare
+05-13,Andrew Coleman
+05-13,Dave Mare
+05-13,Sylvia Dixon
+05-14,Jason Timmins
+06-01,Andrew Aitken
+06-01,Arthur Grimes
+06-02,David McKenzie
+06-02,John Gibson
+06-02,Steven Stillman
+06-03,James Tremewan
+06-03,John McDermott
+06-03,Viv Hall
+06-04,Jo Hendy
+06-04,Suzi Kerr
+06-04,Troy Baisden
+06-05,Jo Hendy
+06-05,Suzi Kerr
+06-06,Dave Mare
+06-06,Yun Liang
+06-07,Arthur Grimes
+06-07,Dave Mare
+06-07,Melanie Morten
+06-08,Dave Mare
+06-08,Jason Timmins
+06-09,Barbara Wolfe
+06-09,Rhema Vaithianathan
+06-09,Sholeh Maani
+07-01,Andrew Aitken
+07-01,Arthur Grimes
+07-02,Kelly Lock
+07-02,Stefan Leslie
+07-03,David Fairman
+07-03,Glen Lauder
+07-03,Suzi Kerr
+07-04,Arthur Grimes
+07-04,Yun Liang
+07-05,Dave Mare
+07-05,Steven Stillman
+07-06,Kelly Lock
+07-06,Suzi Kerr
+07-07,Jo Hendy
+07-07,Suzi Kerr
+07-07,Troy Baisden
+07-08,Kelly Lock
+07-08,Kit Rutherford
+07-08,Suzi Kerr
+07-09,Arthur Grimes
+07-09,Yun Liang
+07-10,Arthur Grimes
+07-10,Dave Mare
+07-10,Melanie Morten
+07-11,Dave Mare
+07-11,Melanie Morten
+07-11,Steven Stillman
+07-12,John Gibson
+07-12,Steven Stillman
+07-12,Trinh Le
+07-13,John McDermott
+07-13,Viv Hall
+08-01,Adolf Stroombergen
+08-02,Kelly Lock
+08-02,Suzi Kerr
+08-03,Kit Rutherford
+08-03,Suzi Kerr
+08-04,Andrew Sweet
+08-04,Suzi Kerr
+08-05,Kelly Lock
+08-05,Suzi Kerr
+08-06,Dave Mare
+08-06,Steven Stillman
+08-07,Arthur Grimes
+08-07,Yun Liang
+08-08,Andrew Coleman
+08-08,Oumlzer Karagedikli
+08-09,Andrew Coleman
+08-10,Andrew Aitken
+08-10,Arthur Grimes
+08-11,Andrew Aitken
+08-11,Malathi Velamuri
+08-11,Steven Stillman
+08-12,Dave Mare
+08-13,Andrew Coleman
+08-14,Andrew Coleman
+09-01,Jackie Cumming
+09-01,Michelle Poland
+09-01,Steven Stillman
+09-02,Bongguen Kim
+09-02,Hengyun Ma
+09-02,John Gibson
+09-02,Les Oxley
+09-03,Hengyun Ma
+09-03,John Gibson
+09-03,Les Oxley
+09-04,Hengyun Ma
+09-04,John Gibson
+09-04,Les Oxley
+09-05,Jacques Poot
+09-06,Daniel J Graham
+09-06,Dave Mare
+09-07,Ron Crawford
+09-08,Andrew Coleman
+09-08,Grant Scobie
+09-09,Kelly Lock
+09-09,Suzi Kerr
+09-10,Dave Mare
+09-10,Steven Stillman
+09-11,Dave Mare
+09-11,Steven Stillman
+09-12,Arthur Grimes
+09-12,Chris Young
+09-13,Andrew Coleman
+09-14,Andrew Coleman
+09-14,Arthur Grimes
+09-15,Arthur Grimes
+09-15,Cleo Ren
+09-15,Philip Stevens
+09-16,Suzi Kerr
+09-16,Wei Zhang
+09-17,Maribeth Todd
+09-17,Suzi Kerr
+10-01,Andrew Coleman
+10-02,Andrew Coleman
+10-03,Arthur Grimes
+10-03,Jacques Poot
+10-03,Matthew Roskruge
+10-03,Philip McCann
+10-04,Arthur van Benthem
+10-04,Suzi Kerr
+10-05,Arthur Grimes
+10-06,John Gibson
+10-06,Steven Stillman
+10-06,Trinh Le
+10-07,Arthur Grimes
+10-07,Mark J Holmes
+10-07,Nicholas Tarrant
+10-08,Andrew Coleman
+10-08,Hugh McDonald
+10-09,Andrea Lu
+10-09,Graeme Guthrie
+10-09,Lew Evans
+10-10,Arthur Grimes
+10-10,Chris Young
+10-11,Arthur Grimes
+10-11,Chris Young
+10-12,Arthur Grimes
+10-12,Jacques Poot
+10-12,Philip McCann
+10-12,William Cochrane
+10-13,Alex Olssen
+10-13,Arthur Grimes
+10-13,Hugh McDonald
+10-13,Steven Stillman
+10-14,Adolf Stroombergen
+11-01,Richard Fabling
+11-02,Arthur Grimes
+11-02,Jacques Poot
+11-02,Matthew Roskruge
+11-02,Philip McCann
+11-03,Arthur Grimes
+11-03,Katy Bergstrom
+11-03,Steven Stillman
+11-04,Andrew Coleman
+11-05,Dave Mare
+11-05,Richard Fabling
+11-05,Steven Stillman
+11-06,Andrew Coleman
+11-06,Dave Mare
+11-06,Ruth Pinkerton
+11-07,Andrew Coleman
+11-07,Dave Mare
+11-08,Andrew Coleman
+11-08,Dave Mare
+11-09,Eric Karpas
+11-09,Suzi Kerr
+11-10,Dave Mare
+11-10,Richard Fabling
+11-11,Arthur Grimes
+11-11,Chris Young
+11-11,Steven Stillman
+11-12,Arthur Grimes
+11-13,Levente Timar
+11-14,Kit Rutherford
+11-14,Marie-Laure Nauleau
+11-14,Simon Anastasiadis
+11-14,Suzi Kerr
+11-14,Tim Cox
+11-15,Hugh McDonald
+11-15,Suzi Kerr
+12-01,Andrew Coleman
+12-02,Dave Mare
+12-02,Dean Hyslop
+12-02,John Gibson
+12-02,Steven Stillman
+12-02,Trinh Le
+12-03,Adam Millard-Ball
+12-03,Suzi Kerr
+12-04,Dave Mare
+12-04,Richard Fabling
+12-05,Isabelle Sin
+12-05,Ran Abramitzky
+12-06,Alex Olssen
+12-06,Suzi Kerr
+12-07,Alex Olssen
+12-07,David Evison
+12-07,Suzi Kerr
+12-07,Wei Zhang
+12-08,Andrew Coleman
+12-08,Darian Woods
+12-09,Arthur Grimes
+12-09,Les Oxley
+12-09,Nicholas Tarrant
+12-10,Alex Olssen
+12-10,Levente Timar
+12-10,Simon Anastasiadis
+12-10,Suzi Kerr
+12-10,Wei Zhang
+12-10,William Power
+12-11,Andrew Coleman
+12-12,Suzi Kerr
+12-13,Arthur Grimes
+12-13,Dave Mare
+12-13,Richard Fabling
+12-14,Catherine Leining
+12-14,Justine Sefton
+12-14,Suzi Kerr
+13-01,Lynda Sanderson
+13-01,Richard Fabling
+13-02,Alex Collier
+13-02,Andrew Coleman
+13-02,Arthur Grimes
+13-02,James Kerr
+13-02,Sean Hyland
+13-03,Dave Mare
+13-03,Sylvia Dixon
+13-04,Dave Mare
+13-04,Ron Crawford
+13-05,Dave Mare
+13-05,Sarah Crichton
+13-06,Dave Mare
+13-06,Richard Fabling
+13-07,Arthur Grimes
+13-07,Nicholas Tarrant
+13-08,Dave Mare
+13-08,Richard Fabling
+13-09,Arthur Grimes
+13-09,Corey Allan
+13-09,Suzi Kerr
+13-10,Arthur Grimes
+13-10,Sean Hyland
+13-11,Simon Anastasiadis
+13-11,Suzi Kerr
+13-12,Arthur Grimes
+13-12,Sean Hyland
+13-13,Suzi Kerr
+13-14,Lynda Sanderson
+13-14,Norman Gemmell
+13-14,Richard Fabling
+13-14,Richard Kneller
+14-01,Arthur Grimes
+14-01,Richard Fabling
+14-02,Arthur Grimes
+14-03,Levente Timar
+14-03,Suzi Kerr
+14-04,Adam Jaffe
+14-04,Corey Allan
+14-04,Isabelle Sin
+14-05,Campbell Will
+14-05,Carl Romanos
+14-05,Suzi Kerr
+14-06,Rafael Di Tella
+14-06,Robert MacCulloch
+14-07,Corey Allan
+14-07,Simon Anastasiadis
+14-07,Suzi Kerr
+14-07,Wei Zhang
+14-07,William Power
+14-08,Arthur Grimes
+14-08,Levente Timar
+14-08,Richard Fabling
+14-09,Suzi Kerr
+14-09,Vicki Duscha
+14-10,Dave Mare
+14-10,Lynda Sanderson
+14-10,Richard Fabling
+14-11,Anna Robinson
+14-11,Arthur Grimes
+14-11,Eyal Apatov
+14-11,Larissa Lutchman
+14-12,Dean Hyslop
+14-12,Zack Dorner
+14-13,Arthur Grimes
+14-13,Levente Timar
+14-13,Richard Fabling
+14-14,Dave Mare
+14-14,Keith McLeod
+14-14,Richard Fabling
+14-15,Adam Jaffe
+14-15,Dave Mare
+14-15,Isabelle Sin
+14-15,Lynda Sanderson
+14-15,Richard Fabling
+15-01,Adam Jaffe
+15-01,Gatan de Rassenfosse
+15-02,Arthur Grimes
+15-02,Ian Mitchell
+15-03,Isabelle Sin
+15-03,Steven Stillman
+15-04,Lynda Sanderson
+15-04,Richard Fabling
+15-04,Richard Kneller
+15-05,Lynda Sanderson
+15-05,Richard Fabling
+15-06,Campbell Will
+15-06,Corey Allan
+15-06,Suzi Kerr
+15-07,Hugh McDonald
+15-07,Madeline Duhon
+15-07,Suzi Kerr
+15-08,Adam Jaffe
+15-08,Trinh Le
+15-09,Arthur Grimes
+15-09,Sean Hyland
+15-10,Arthur Grimes
+15-10,Marc Reinhardt
+15-11,Suzi Kerr
+15-11,Zack Dorner
+15-12,Adam Jaffe
+15-12,Athene Laws
+15-12,Jason Gush
+15-12,Victoria Larsen
+15-13,Adam Jaffe
+15-13,Eyal Apatov
+15-13,Matt Thirkettle
+15-13,Michele Morris
+15-13,Richard Fabling
+15-14,Arthur Grimes
+15-14,Fraser McKay
+15-14,Robert MacCulloch
+15-15,Dave Mare
+15-15,Richard Fabling
+15-16,Matt Thirkettle
+15-16,Suzi Kerr
+15-17,Dave Mare
+15-17,Richard Fabling
+15-18,Dave Mare
+15-18,Dean Hyslop
+15-18,Richard Fabling
+15-19,Arthur Grimes
+15-19,Levente Timar
+15-19,Richard Fabling
+15-20,Dave Mare
+15-20,Jacques Poot
+15-20,Ruth Pinkerton
+16-01,Dean Hyslop
+16-01,Tue Gorgens
+16-02,Robert MacCulloch
+16-03,Lynda Sanderson
+16-03,Richard Fabling
+16-04,Arthur Grimes
+16-04,Mark J Holmes
+16-05,Anna Robinson
+16-05,Arthur Grimes
+16-05,Judd Ormsby
+16-05,Siu Yuat Wong
+16-06,Catherine Leining
+16-06,Suzi Kerr
+16-07,Arthur Grimes
+16-07,Levente Timar
+16-07,Richard Fabling
+16-08,Adam Jaffe
+16-08,Nathan Chappell
+16-08,Trinh Le
+16-09,Levente Timar
+16-10,Isabelle Sin
+16-10,Nathan Chappell
+16-11,Arthur Grimes
+16-11,Eyal Apatov
+16-12,Arthur Grimes
+16-12,Tom Carver
+16-13,Judd Ormsby
+16-13,Suzi Kerr
+16-14,Adam Jaffe
+16-14,Nathan Chappell
+16-15,Levente Timar
+16-16,Suzi Kerr
+16-17,Andy Reisinger
+16-17,Anna Robinson
+16-17,Cecile de Klein
+16-17,Dave Frame
+16-17,Martin Manning
+16-17,Michele Hollis
+16-17,Mike Harvey
+16-17,Suzi Kerr
+16-18,Dean Hyslop
+16-18,Wilbur Townsend
+16-19,Dean Hyslop
+16-19,Wilbur Townsend
+16-20,Corey Allan
+16-20,Suzi Kerr
+16-21,Dave Mare
+16-22,Arthur Grimes
+16-22,Richard Fabling
+17-01,Suzi Kerr
+17-01,Tom Carver
+17-02,Dave Mare
+17-02,Jacques Poot
+17-02,Omoniyi Alimi
+17-03,Arthur Grimes
+17-03,Wilbur Townsend
+17-04,Dave Mare
+17-04,Nathan Chappell
+17-04,Richard Fabling
+17-04,Trinh Le
+17-05,Catherine Leining
+17-05,Corey Allan
+17-05,Suzi Kerr
+17-06,Catherine Leining
+17-06,Judd Ormsby
+17-06,Suzi Kerr
+17-07,Arthur Grimes
+17-07,Judd Ormsby
+17-07,Kate Preston
+17-08,Arthur Grimes
+17-08,Kate Preston
+17-09,Andrew Coleman
+17-10,Adam Daigneault
+17-10,Edmund Lou
+17-10,Leah Murphy
+17-10,Levente Timar
+17-10,Sandy Elliot
+17-10,Sanjay Wadhwa
+17-10,Suzi Kerr
+17-10,Suzie Greenhalgh
+17-11,Patrick Dawson
+17-11,Suzi Kerr
+17-11,Tom Carver
+17-12,Dean Hyslop
+17-12,Wilbur Townsend
+17-13,Arthur Grimes
+17-13,Dave Mare
+17-13,David Fleming
+17-13,Laurent Lebreton
+17-13,Peter Nunns
+17-14,Robert MacCulloch
+17-15,Isabelle Sin
+17-15,Richard Fabling
+17-15,Steven Stillman
+18-01,Richard Harris
+18-01,Trinh Le
+18-02,Adam Jaffe
+18-02,Nathan Chappell
+18-03,Dave Mare
+18-03,Eyal Apatov
+18-03,Isabelle Sin
+18-04,Arthur Grimes
+18-04,Eyal Apatov
+18-04,Nathan Chappell
+18-05,Amanda Murdie
+18-05,Anne-Marie Brook
+18-05,"Daniel W. Hill, Jr."
+18-05,K Chad Clay
+18-05,Ryan Bakker
+18-06,Arthur Grimes
+18-06,Mubashir Qasim
+18-07,Arthur Grimes
+18-07,Dennis Wesselbaum
+18-08,Gail Pacheco
+18-08,Isabelle Sin
+18-08,Kabir Dasgupta
+18-09,David Fleming
+18-09,Ilan Noy
+18-09,Jacob Pastor Paz
+18-09,Sally Owen
+18-10,David Rea
+18-10,Dean Hyslop
+18-11,David Fleming
+18-11,Kate Preston
+18-12,Richard Fabling
+18-13,Dave Mare
+18-13,Jacques Poot
+18-13,Omoniyi Alimi
+18-14,Arthur Grimes
+18-14,Dave Mare
+18-14,Kate Preston
+18-15,Adolf Stroombergen
+18-15,Andrew Kerr
+18-15,Andrew Philpott
+18-15,Catherine Leining
+18-15,Dom White
+18-15,Ferran de Miguel Mercader
+18-15,James Neale
+18-15,John Ballingall
+18-15,Jonathan Leaver
+18-15,Juan Monge
+18-15,Kiti Suomalainen
+18-15,Martin Atkins
+18-15,Niven Winchester
+18-15,Simon Coates
+18-15,Suzi Kerr
+18-15,Suzie Greenhalgh
+18-15,Vincent Smart
+18-16,Adolf Stroombergen
+18-16,Alexander Herzig
+18-16,Alistair Hall
+18-16,Andy Reisinger
+18-16,Anne-Gaelle Ausseil
+18-16,Catherine Leining
+18-16,Christian Zammit
+18-16,David Fleming
+18-16,Dom White
+18-16,Edmund Lou
+18-16,Elodie Blanc
+18-16,Isaac Bain
+18-16,Jim Risk
+18-16,Jo Hendy
+18-16,Joel Gibbs
+18-16,Juan Monge
+18-16,Laetitia Leroy
+18-16,Levente Timar
+18-16,Patrick Kavanagh
+18-16,Suzi Kerr
+18-16,Tarek Soliman
+18-16,Tony van der Weerdan
+19-01,Ben Davies
+19-01,Dave Mare
+19-02,Isabelle Sin
+19-02,Judd Ormsby
+19-03,Dave Mare
+19-03,Richard Fabling
+19-04,Edmund Lou
+19-04,Steffen Lippert
+19-04,Suzi Kerr
+19-05,Dave Mare
+19-05,Jacques Poot
+19-06,Arthur Grimes
+19-06,Dave Mare
+19-06,Kate Preston
+19-06,Shaan Badenhorst
+19-07,Catherine Leining
+19-07,Suzi Kerr
+19-08,Catherine Leining
+19-08,Suzi Kerr
+19-09,Catherine Leining
+19-09,Suzi Kerr
+19-10,Bruce Small
+19-10,David Fleming
+19-10,Edmund Lou
+19-10,Loic Henry
+19-10,Sally Owen
+19-10,Sandra Cortes-Acosta
+19-11,David Fleming
+19-11,Edmund Lou
+19-11,Suzi Kerr
+19-12,Catherine Leining
+19-12,Dom White
+19-12,Niven Winchester
+19-13,Andrew Coleman
+19-14,Dave Mare
+19-14,Dean Hyslop
+19-14,Steven Stillman
+19-14,Trinh Le
+19-15,John McDermott
+19-15,Viv Hall
+19-16,Dave Mare
+19-16,Richard Fabling
+19-17,Arthur Grimes
+19-17,Dom White
+19-18,Dean Hyslop
+19-18,Isabelle Sin
+19-18,Lynn Riggs
+19-19,David Fleming
+19-19,Ilan Noy
+19-19,Jacob Pastor Paz
+19-19,Sally Owen
+19-20,Dave Mare
+19-20,Jacques Poot
+19-21,Bronwyn Bruce-Brand
+19-21,Isabelle Sin
+19-22,Dave Mare
+19-23,Arthur Grimes
+19-23,Richard Fabling

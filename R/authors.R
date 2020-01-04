@@ -11,7 +11,7 @@
 #' @format Data frame with columns
 #' \describe{
 #' \item{number}{Working paper number}
-#' \item{author}{Author ID}
+#' \item{author}{Author name}
 #' }
 #' 
 #' @source \href{https://motu.nz/resources/working-papers/}{Motu Economic and Public Policy Research}
