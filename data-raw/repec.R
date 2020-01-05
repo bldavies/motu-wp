@@ -20,7 +20,8 @@ index_html <- read_html(index_url)
 index <- tibble(node = html_nodes(index_html, 'a')) %>%
   mutate(file = html_text(node)) %>%
   filter(grepl('[.]rdf', file)) %>%
-  mutate(url = paste0(index_url, file))
+  mutate(url = paste0(index_url, file),
+         file = gsub('_', '-', file))
 
 # Download uncached RDF files
 needed <- filter(index, !file %in% dir(outdir))
