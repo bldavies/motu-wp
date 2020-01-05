@@ -1,7 +1,6 @@
 #' Motu working papers
 #' 
-#' Data frame containing working paper numbers and titles, and research area
-#' names and colours.
+#' Data frame containing working paper attributes.
 #' 
 #' @docType data
 #' 

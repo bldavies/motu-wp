@@ -18,7 +18,6 @@
 data(papers)
 }
 \description{
-Data frame containing working paper numbers and titles, and research area
-names and colours.
+Data frame containing working paper attributes.
 }
 \keyword{datasets}

@@ -1,6 +1,6 @@
 # PAPERS.R
 #
-# This script exports a table of working paper numbers, titles, and areas.
+# This script exports a table of working paper attributes.
 #
 # Ben Davies
 # January 2020

@@ -3,7 +3,7 @@
 This package contains information about [Motu working papers](https://motu.nz/resources/working-papers/) published between 2003 and 2019.
 The package provides the following two data frames.
 
-* `papers`: working paper numbers and titles, and research area names and colours.
+* `papers`: working paper attributes.
 * `authors`: paper-author correspondences.
 
 ## Installation
