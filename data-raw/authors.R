@@ -45,6 +45,13 @@ authors <- authors_list %>%
          text = trimws(text),
          text = replace_non_ascii(text)) %>%
   distinct(number, author = text) %>%
+  bind_rows(
+    tribble(
+      ~number, ~author,
+      '03-01', 'Suzi Kerr',
+      '03-11', 'Ralph Lattimore'
+    )
+  ) %>%
   arrange(number, author) %>%
   filter(!is.na(author))
 

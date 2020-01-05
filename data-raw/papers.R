@@ -38,7 +38,7 @@ replace_non_ascii <- function(x) {
     subfun('<e2><80><9c>|<e2><80><9d>', '\"')
 }
 
-# Combine data
+# Combine data and manually add missing papers
 papers <- tibble(
   number = gsub('^data-raw/pages/(.*)[.]html$', '\\1', html_files),
   title = sapply(html_data, function(x) html_text(html_node(x, 'h1')))
@@ -46,8 +46,16 @@ papers <- tibble(
   mutate(title = replace_non_ascii(title)) %>%
   left_join(index) %>%
   mutate(area = gsub('^/our-work/(.*?)/(.*)$', '\\1', uri)) %>%
+  bind_rows(
+    tribble(
+      ~number, ~title, ~area,
+      '03-01', 'Allocating Risks in a Domestic Greenhouse Gas Trading System', 'environment-and-resources',
+      '03-11', 'Long Run Trends in New Zealand Industry Assistance', 'population-and-labour'
+    )
+  ) %>%
   left_join(areas) %>%
-  select(number, title, area = area_name, colour = area_colour)
+  select(number, title, area = area_name, colour = area_colour) %>%
+  arrange(number)
 
 # Export data
 write_csv(papers, 'data-raw/papers.csv')
