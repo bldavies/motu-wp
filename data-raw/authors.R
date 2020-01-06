@@ -49,7 +49,10 @@ authors <- authors_list %>%
     tribble(
       ~number, ~author,
       '03-01', 'Suzi Kerr',
-      '03-11', 'Ralph Lattimore'
+      '03-11', 'Ralph Lattimore',
+      '13-15', 'Lynda Sanderson',
+      '14-16', 'Richard Fabling',
+      '14-16', 'Lynda Sanderson'
     )
   ) %>%
   arrange(number, author) %>%

@@ -9,7 +9,6 @@
 library(dplyr)
 library(readr)
 library(rvest)
-library(xml2)
 
 # Import page index and HTML data
 index <- read_csv('data-raw/pages/index.csv')
@@ -50,7 +49,9 @@ papers <- tibble(
     tribble(
       ~number, ~title, ~area,
       '03-01', 'Allocating Risks in a Domestic Greenhouse Gas Trading System', 'environment-and-resources',
-      '03-11', 'Long Run Trends in New Zealand Industry Assistance', 'population-and-labour'
+      '03-11', 'Long Run Trends in New Zealand Industry Assistance', 'population-and-labour',
+      '13-15', 'Sources of international investment data in the Longitudinal Business Database', 'wellbeing-and-macroeconomics',
+      '14-16', 'Productivity distributions in New Zealand: The dangers of international comparison', 'productivity-and-innovation'
     )
   ) %>%
   left_join(areas) %>%
