@@ -20,6 +20,8 @@
 #' @references Newman, M. E. J. (2001).
 #' Scientific collaboration networks: II. Shortest paths, weighted networks, and centrality.
 #' \emph{Physical Review E} 64, 016132.
+#'
+#' @export
 coauthorship_network <- function(weights = "none") {
   if (!weights %in% c("counts", "newman", "none")) {
     stop("Unrecognised value of argument `weights`")
