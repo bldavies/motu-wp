@@ -66,6 +66,8 @@ abstracts <- rdf_data %>%
   ungroup() %>%
   mutate(abstract = gsub('^Abstract:', '', abstract),
          abstract = replace_non_ascii(abstract),
+         abstract = gsub('[?]ori', 'aori', abstract),
+         abstract = gsub('[?]whit', 'awhit', abstract),
          abstract = trimws(gsub('\\s+', ' ', abstract)),
          abstract = ifelse(abstract == '', NA, abstract))
 
