@@ -4,7 +4,7 @@
 # used by papers.R and authors.R.
 #
 # Ben Davies
-# January 2020
+# December 2020
 
 # Load packages
 library(dplyr)
@@ -19,14 +19,18 @@ list_url <- 'https://motu.nz/resources/working-papers/'
 list_html <- read_html(list_url)
 
 # Create index of working paper numbers and page URIs
-index <- tibble(node = html_nodes(list_html, '.content__abstract-content p')) %>%
-  mutate(uri = html_attr(html_node(node, 'a'), 'href'),
-         number = gsub('^([0-9]+).?([0-9]+).*?$', '\\1-\\2', html_text(node)),
-         uri = html_attr(html_node(node, 'a'), 'href'),
-         number = case_when(grepl('relatedness-complexity', uri) ~ '19-01',
-                           grepl('pacific-migrants', uri) ~ '19-02',
-                           TRUE ~ number)) %>%
-  filter(grepl('our-work', uri)) %>%
+index <- html_nodes(list_html, '.content__abstract-content p') %>%
+  lapply(function(node) {
+    tibble(
+      uri = html_attr(html_node(node, 'a'), 'href'),
+      number = gsub('^([0-9]+).?([0-9]+).*?$', '\\1-\\2', html_text(node)),
+    ) %>%
+      mutate(number = case_when(grepl('relatedness-complexity', uri) ~ '19-01',
+                                grepl('pacific-migrants', uri) ~ '19-02',
+                                TRUE ~ number))
+  }) %>%
+  bind_rows() %>%
+  filter(grepl('our-expertise', uri)) %>%
   arrange(number) %>%
   select(number, uri)
 

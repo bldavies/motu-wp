@@ -3,7 +3,7 @@
 # This script exports a table of working paper attributes.
 #
 # Ben Davies
-# January 2020
+# December 2020
 
 # Load packages
 library(dplyr)
@@ -48,7 +48,8 @@ replace_non_ascii <- function(x) {
     subfun('<c4><81>', 'a') %>%
     subfun('<e2><80><93>', '--') %>%
     subfun('<e2><80><98>|<e2><80><99>', '\'') %>%
-    subfun('<e2><80><9c>|<e2><80><9d>', '\"')
+    subfun('<e2><80><9c>|<e2><80><9d>', '\"') %>%
+    subfun('<fc><be><8d><b3><a4><bc>', '---')
 }
 
 # Extract abstracts
@@ -75,7 +76,7 @@ papers <- tibble(
 ) %>%
   mutate(title = replace_non_ascii(title)) %>%
   left_join(index) %>%
-  mutate(area = gsub('^/our-work/(.*?)/(.*)$', '\\1', uri)) %>%
+  mutate(area = gsub('^/our-expertise/(.*?)/(.*)$', '\\1', uri)) %>%
   bind_rows(
     tribble(
       ~number, ~title, ~area,

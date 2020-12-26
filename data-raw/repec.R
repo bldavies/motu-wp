@@ -3,7 +3,7 @@
 # This script downloads RDF files from Motu's RePEc index.
 #
 # Ben Davies
-# January 2020
+# December 2020
 
 # Load packages
 library(dplyr)
@@ -17,8 +17,9 @@ index_url <- 'http://motu-www.motu.org.nz/RePEc/mtu/wpaper/'
 index_html <- read_html(index_url)
 
 # Create index of RDF file names and URLs
-index <- tibble(node = html_nodes(index_html, 'a')) %>%
-  mutate(file = html_text(node)) %>%
+index <- html_nodes(index_html, 'a') %>%
+  html_text() %>%
+  {tibble(file = .)} %>%
   filter(grepl('[.]rdf', file)) %>%
   mutate(url = paste0(index_url, file),
          file = gsub('_', '-', file))
