@@ -76,7 +76,8 @@ papers <- tibble(
   number = gsub('^data-raw/pages/(.*)[.]html$', '\\1', html_files),
   title = sapply(html_data, function(x) html_text(html_node(x, 'h1')))
 ) %>%
-  mutate(title = replace_non_ascii(title)) %>%
+  mutate(title = replace_non_ascii(title),
+         title = trimws(gsub('\\s+', ' ', title))) %>%
   left_join(index) %>%
   mutate(area = gsub('^/our-expertise/(.*?)/(.*)$', '\\1', uri)) %>%
   bind_rows(
